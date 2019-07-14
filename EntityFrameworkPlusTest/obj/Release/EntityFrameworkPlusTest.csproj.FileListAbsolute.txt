@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\EntityFrameworkPlusTest.exe.config
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\EntityFrameworkPlusTest.exe
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\EntityFrameworkPlusTest.pdb
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\EntityFramework.dll
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\Z.EntityFramework.Plus.EF5.dll
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\EntityFramework.xml
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Release\Z.EntityFramework.Plus.EF5.xml
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Release\EntityFrameworkPlusTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Release\EntityFrameworkPlusTest.csproj.CopyComplete
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Release\EntityFrameworkPlusTest.exe
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Release\EntityFrameworkPlusTest.pdb

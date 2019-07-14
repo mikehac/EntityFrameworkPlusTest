@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityFrameworkPlusModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EntityFrameworkPlus.dbo.CustomerPackagesHistory' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="CustomerPackagesHistory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="PackageID" Type="int" Nullable="false" />
+    <Property Name="PackageQty" Type="int" Nullable="false" />
+    <Property Name="OperationDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EntityFrameworkPlus.dbo.Customers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CustomerCity" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="EntityFrameworkPlusModelStoreContainer">
+    <EntitySet Name="CustomerPackagesHistory" EntityType="Self.CustomerPackagesHistory" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CustomerPackagesHistory].[ID] AS [ID], 
+[CustomerPackagesHistory].[CustomerID] AS [CustomerID], 
+[CustomerPackagesHistory].[PackageID] AS [PackageID], 
+[CustomerPackagesHistory].[PackageQty] AS [PackageQty], 
+[CustomerPackagesHistory].[OperationDate] AS [OperationDate]
+FROM [dbo].[CustomerPackagesHistory] AS [CustomerPackagesHistory]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Customers" EntityType="Self.Customers" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Customers].[ID] AS [ID], 
+[Customers].[CustomerName] AS [CustomerName], 
+[Customers].[CustomerCity] AS [CustomerCity]
+FROM [dbo].[Customers] AS [Customers]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
