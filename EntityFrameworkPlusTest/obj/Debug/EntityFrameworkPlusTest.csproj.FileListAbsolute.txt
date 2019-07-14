@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\EntityFrameworkPlusTest.exe.config
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\EntityFrameworkPlusTest.exe
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\EntityFrameworkPlusTest.pdb
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\Z.EntityFramework.Plus.EF5.dll
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\bin\Debug\Z.EntityFramework.Plus.EF5.xml
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Debug\EntityFrameworkPlusTest.csprojAssemblyReference.cache
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Debug\EntityFrameworkPlusTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Debug\EntityFrameworkPlusTest.csproj.CopyComplete
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Debug\EntityFrameworkPlusTest.exe
+C:\Users\user\Desktop\EntityFrameworkPlusTest-master\EntityFrameworkPlusTest\obj\Debug\EntityFrameworkPlusTest.pdb
