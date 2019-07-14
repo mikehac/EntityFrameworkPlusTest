@@ -26,5 +26,6 @@ namespace EntityFrameworkPlusTest
         }
     
         public DbSet<CustomerPackagesHistory> CustomerPackagesHistory { get; set; }
+        public DbSet<Customers> Customers { get; set; }
     }
 }

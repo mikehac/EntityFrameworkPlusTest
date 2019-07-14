@@ -13,6 +13,7 @@ namespace EntityFrameworkPlusTest
         {
             EntityFrameworkPlusEntities db = new EntityFrameworkPlusEntities();
 
+            var c = db.Customers.Where(cu => cu.ID == 0).Delete();
             //Next row raise an error "The space 'CSSpace' has no associated collection."
             var b = db.CustomerPackagesHistory.Where(d => d.CustomerID == 16772).Delete();
 
